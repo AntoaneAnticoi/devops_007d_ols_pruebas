@@ -1,13 +1,13 @@
-package com.perfulandiaspa.productservice;
+package com.perfulandia.Perfulandia;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ProductserviceApplication {
+public class PerfulandiaApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ProductserviceApplication.class, args);
+		SpringApplication.run(PerfulandiaApplication.class, args);
 	}
 
 }
