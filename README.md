@@ -1,10 +1,8 @@
-\# Microservicio Perfulandia - Evaluación Parcial 1
+\# Proyecto Perfulandia - Evaluación Parcial 1
 
 
 
-\## Integrantes del Equipo
-
-\- \*\*Integrante 1:\*\* Antoane Anticoi
+ Antoane Anticoi
 
 
 
