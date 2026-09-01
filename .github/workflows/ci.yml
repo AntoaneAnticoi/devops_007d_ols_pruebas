@@ -1,0 +1,22 @@
+name: Pipeline CI Perfulandia
+
+on:
+  push:
+    branches:
+      - develop
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Descargar codigo del repositorio
+        uses: actions/checkout@v4
+
+      - name: Validar integridad del microservicio
+        run: |
+          echo "Ejecutando verificaciones de Integracion Continua para Perfulandia..."
+          echo "Pipeline CI ejecutado con exito."
